@@ -1,6 +1,6 @@
 # chipi-r
 
-[![Join the chat at https://gitter.im/currofy/currofy-site](https://badges.gitter.im/currofy/currofy-site.svg)](https://gitter.im/currofy/currofy-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![2020](https://badges.gitter.im/currofy/currofy-site.svg)](https://img.shields.io/badge/-chipi--reburn-blue)
 
 This is the repo for 2020 Chipi Reborn project ⚡️⚡️⚡️
 
