@@ -1,7 +1,5 @@
 # chipi-r
 
-[![2020](https://badges.gitter.im/currofy/currofy-site.svg)](https://img.shields.io/badge/-chipi--reburn-blue)
-
 This is the repo for 2020 Chipi Reborn project ⚡️⚡️⚡️
 
 ## Building the client 🏗
@@ -10,11 +8,11 @@ Steps to install and run chipi go here
 
 ## Tech Stack
 
-Electron
-React
-React-Redux
-Redux-Thunk
-TypScritp
+* Electron
+* React
+* React-Redux
+* Redux-Thunk
+* TypScritp
 ...
 ...
 
