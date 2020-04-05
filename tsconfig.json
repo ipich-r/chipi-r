@@ -18,13 +18,13 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "@app/*": ["app/*"],
-      "@appWindow/*": ["./appWindow/*"],
-      "Environment": ["./environment/development"]
+      "@app/*": ["src/app/*"],
+      "@appWindow/*": ["src/appWindow/*"],
+      "Environment": ["src/environment/development"]
     },
     "sourceMap": true,
     "lib": ["dom", "es2017"]
   },
-  "include": ["appWindow/**/*","app/**/*", "global.d.ts"],
+  "include": ["src/appWindow/**/*","src/app/**/*", "global.d.ts"],
   "exclude": ["node_modules", "**/*.spec.ts", "appWindow/dist"]
 }

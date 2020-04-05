@@ -30,21 +30,21 @@ module.exports = {
   plugins,
 
   devtool: "source-map",
-  entry: "./appWindow/index.development",
+  entry: "src/appWindow/index.development",
 
   output: {
     ...baseConfig.output,
     path: __dirname,
-    filename: "./appWindow/index.js"
+    filename: "src/appWindow/index.js"
   },
 
   resolve: {
     modules: [path.join(__dirname, "appWindow"), "node_modules"],
     extensions: [".js", ".jsx", ".tsx", ".ts"],
     alias: {
-      Environment: path.resolve(__dirname, `environment/development`),
-      "@app": path.resolve(__dirname, `app/`),
-      "@appWindow": path.resolve(__dirname, `appWindow/`),
+      Environment: path.resolve(__dirname, `src/environment/development`),
+      "@app": path.resolve(__dirname, `src/app/`),
+      "@appWindow": path.resolve(__dirname, `src/appWindow/`),
     }
   },
 

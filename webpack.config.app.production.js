@@ -13,12 +13,12 @@ const config = {
   devtool: "source-map",
 
   entry: {
-    index: "./app/index"
+    index: "src/app/index"
   },
 
   output: {
     ...baseConfig.output,
-    path: path.join(__dirname, "./app/dist"),
+    path: path.join(__dirname, "src/app/dist"),
     publicPath: "../dist/"
   },
 

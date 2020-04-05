@@ -13,7 +13,7 @@ const config = {
       ...baseElectronConfig.resolve.alias,
       Environment: path.resolve(
         __dirname,
-        `environment/${process.env.CHIPI_ENV || "production"}`
+        `src/environment/${process.env.CHIPI_ENV || "production"}`
       )
     }
   }

@@ -40,17 +40,17 @@ module.exports = {
     ]
   },
   output: {
-    path: path.join(__dirname, "app"),
+    path: path.join(__dirname, "src/app"),
     filename: "[name].bundle.js",
     libraryTarget: "commonjs2"
   },
   resolve: {
-    modules: [path.join(__dirname, "app"), "node_modules"],
+    modules: [path.join(__dirname, "src/app"), "node_modules"],
     extensions: [".js", ".jsx", ".tsx", ".ts"],
     alias: {
-      Environment: path.resolve(__dirname, `./environment/development`),
-      "@app": path.resolve(__dirname, `app/`),
-      "@appWindow": path.resolve(__dirname, `appWindow/`),
+      Environment: path.resolve(__dirname, `src/environment/development`),
+      "@app": path.resolve(__dirname, `src/app/`),
+      "@appWindow": path.resolve(__dirname, `src/appWindow/`),
     }
   },
   plugins: [
